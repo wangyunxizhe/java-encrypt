@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="asymmetric" />
+        <module name="base64_encrypt" />
+        <module name="digital_signature" />
+        <module name="msg_digest" />
+        <module name="symmetric" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="asymmetric" target="1.8" />
+      <module name="base64_encrypt" target="1.8" />
+      <module name="digital_signature" target="1.8" />
+      <module name="java_encrypt" target="1.8" />
+      <module name="msg_digest" target="1.8" />
+      <module name="symmetric" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
